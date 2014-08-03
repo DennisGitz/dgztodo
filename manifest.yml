@@ -1,0 +1,11 @@
+applications:
+- services:
+  - myblog
+  disk_quota: 1024M
+  host: dgblog
+  name: dgblog
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
